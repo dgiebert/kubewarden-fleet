@@ -16,8 +16,7 @@ helm:
   values:
     installCRDs: true
     config:
-      gatewayAPI:
-        enabled: true
+      enableGatewayAPI: true
 labels:
   app: cert-manager
 
